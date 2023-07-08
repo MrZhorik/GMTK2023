@@ -12,7 +12,7 @@ public class movement : MonoBehaviour
 
     Vector2 moveDirection;
     Vector2 mousePosition;
-    // Update is called once per frame
+    //Autoried Vector2
     void Update()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
